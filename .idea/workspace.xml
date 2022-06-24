@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89874082-45b4-46bc-b17f-3124b5eaf417" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/controller/AboutUsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/about-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/templates/bluraystore-home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/core/movies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/entity/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/repository/MovieRepositoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/repository/MovieRepositoryInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/repository/file/FileMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/repository/file/FileMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/repository/memory/MemoryMovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/repository/memory/MemoryMovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/service/MovieServiceInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/service/MovieServiceInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/service/defaultservice/DefaultMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/blueraystore/service/defaultservice/DefaultMovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/applicationContext.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/core" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AqGZDdU9P8LzpUYRiARQ8pfLtU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/poec-java/TP-Spring/BlueRayStore&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\poec-java\TP-Spring\BlueRayStore\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.blueraystore.App" />
+      <module name="BlueRayStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.blueraystore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89874082-45b4-46bc-b17f-3124b5eaf417" name="Changes" comment="" />
+      <created>1655729756410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655729756410</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

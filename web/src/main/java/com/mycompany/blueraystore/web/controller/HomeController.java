@@ -5,6 +5,8 @@ import com.mycompany.blueraystore.entity.Movie;
 import com.mycompany.blueraystore.service.MovieServiceInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -23,17 +25,11 @@ public class HomeController {
 		return service.getMovieList();
 	}
 	
-	/*// Version initiale
-	@ModelAttribute("movies")
-	public List<Movie> getMovies() {
-		return service.getMovieList();
-	}
 	
-	@RequestMapping("/bluraystore-home")
-	public ModelAndView displayHome() {
-		return new ModelAndView();
+	@GetMapping("/add-bluray-form")
+	public void displayMovieForm(Model model) {
+		model.addAttribute("movie", new Movie());
 	}
-	*/
 	
 	
 	

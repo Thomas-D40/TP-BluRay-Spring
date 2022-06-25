@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1>Hello World!</h1>
+
+
+<p>Titre : <span th:text="${movie.title}"></span></p>
+<p>Genre : <span th:text="${movie.genre}"></span></p>
+<p>Description : <span th:text="${movie.description}"></span></p>
+
+<a th:href="@{/bluraystore-home}">Revenir à l'accueil</a>
+</body>
+</html>

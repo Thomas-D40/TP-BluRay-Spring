@@ -10,4 +10,6 @@ public interface MovieServiceInterface {
 	public List<Movie> getMovieList();
 	
 	public void setRepository(MovieRepositoryInterface repositoryInterface);
+	
+	public Movie getMovieById(long id);
 }

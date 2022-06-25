@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
-@Repository
+
 public class MemoryMovieRepository implements MovieRepositoryInterface {
 	
 	public static List<Movie> movies = new ArrayList<>();
@@ -18,5 +18,14 @@ public class MemoryMovieRepository implements MovieRepositoryInterface {
 	@Override
 	public List<Movie> list(){
 		return movies;
-	};
+	}
+	
+	@Override
+	public Movie getById(long id) {
+		return movies.stream().
+				filter(m -> m.getId()==id).
+				findFirst().get();
+	}
+	
+	
 }

@@ -8,8 +8,10 @@
     <h1>Hello World!</h1>
 
     <ul th:each="movie: ${movies}">
-        <li th:text="${movie.title} + ' / ' + ${movie.genre}"></li>
+        <li><a th:href="@{/movie/{id}(id=${movie.id})}" th:text="${movie.title}"/></li>
     </ul>
+
+<a th:href="@{/add-bluray-form}">Ajouter un film</a>
    
 
 </body>

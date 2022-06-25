@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Quel film veux-tu ajouter?</h1>
+
+<form method="post" th:action="@{/movie}" th:object="${movie}">
+    <label th:for="title">Quel est son titre?</label>
+    <input type="text" th:field="*{title}" >
+    <label th:for="genre">Quel type de film?</label>
+    <input type="text" th:field="*{genre}" >
+    <label th:for="description">Décrivez-le</label>
+    <input type="text" th:field="*{description}" >
+    <input type="submit">
+</form>
+
+
+</body>
+</html>

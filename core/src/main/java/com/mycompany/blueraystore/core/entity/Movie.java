@@ -1,4 +1,4 @@
-package com.mycompany.blueraystore.entity;
+package com.mycompany.blueraystore.core.entity;
 
 
 public class Movie {

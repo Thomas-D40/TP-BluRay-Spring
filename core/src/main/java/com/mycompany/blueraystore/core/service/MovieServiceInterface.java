@@ -1,7 +1,7 @@
-package com.mycompany.blueraystore.service;
+package com.mycompany.blueraystore.core.service;
 
-import com.mycompany.blueraystore.entity.Movie;
-import com.mycompany.blueraystore.repository.MovieRepositoryInterface;
+import com.mycompany.blueraystore.core.entity.Movie;
+import com.mycompany.blueraystore.core.repository.MovieRepositoryInterface;
 
 import java.util.List;
 

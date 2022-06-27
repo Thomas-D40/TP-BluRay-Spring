@@ -1,8 +1,7 @@
-package com.mycompany.blueraystore.repository.memory;
+package com.mycompany.blueraystore.core.repository.memory;
 
-import com.mycompany.blueraystore.entity.Movie;
-import com.mycompany.blueraystore.repository.MovieRepositoryInterface;
-import org.springframework.stereotype.Repository;
+import com.mycompany.blueraystore.core.entity.Movie;
+import com.mycompany.blueraystore.core.repository.MovieRepositoryInterface;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,8 +1,8 @@
-package com.mycompany.blueraystore.service.defaultservice;
+package com.mycompany.blueraystore.core.service.defaultservice;
 
-import com.mycompany.blueraystore.repository.MovieRepositoryInterface;
-import com.mycompany.blueraystore.entity.Movie;
-import com.mycompany.blueraystore.service.MovieServiceInterface;
+import com.mycompany.blueraystore.core.entity.Movie;
+import com.mycompany.blueraystore.core.repository.MovieRepositoryInterface;
+import com.mycompany.blueraystore.core.service.MovieServiceInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

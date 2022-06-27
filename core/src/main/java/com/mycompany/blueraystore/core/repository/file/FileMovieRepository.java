@@ -1,7 +1,7 @@
-package com.mycompany.blueraystore.repository.file;
+package com.mycompany.blueraystore.core.repository.file;
 
-import com.mycompany.blueraystore.entity.Movie;
-import com.mycompany.blueraystore.repository.MovieRepositoryInterface;
+import com.mycompany.blueraystore.core.entity.Movie;
+import com.mycompany.blueraystore.core.repository.MovieRepositoryInterface;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;

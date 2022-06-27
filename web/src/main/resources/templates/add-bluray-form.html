@@ -7,13 +7,25 @@
 <body>
 <h1>Quel film veux-tu ajouter?</h1>
 
-<form method="post" th:action="@{/movie}" th:object="${movie}">
-    <label th:for="title">Quel est son titre?</label>
-    <input type="text" th:field="*{title}" >
-    <label th:for="genre">Quel type de film?</label>
-    <input type="text" th:field="*{genre}" >
+<form method="post" th:action="@{/movie}" th:object="${movieForm}">
+    <p>Titre du film :
+        <input type="text" th:field="*{title}" maxlength="20"></p>
+    <div th:if="${#fields.hasErrors('title')}" th:errors="*{title}"></div>
+    <p th:for="genre">Genre : </p>
+    <select name="genres" th:field="*{genre}">
+        <option value="">--Please choose an option</option>
+        <option th:value="Comédie">Comédie</option>
+        <option th:value="Horreur">Horreur</option>
+        <option th:value="Thriller">Thriller</option>
+        <option th:value="Action">Action</option>
+        <option th:value="Romantique">Romantique</option>
+        <option th:value="Drame">Drame</option>
+        <option th:value="Animation">Animation</option>
+    </select>
+    <div th:if="${#fields.hasErrors('genre')}" th:errors="*{genre}"></div>
     <label th:for="description">Décrivez-le</label>
-    <input type="text" th:field="*{description}" >
+    <textarea th:field="*{description}" rows="5" maxlength="255">Décrivez ici</textarea>
+    <div th:if="${#fields.hasErrors('description')}" th:errors="*{description}"></div>
     <input type="submit">
 </form>
 
